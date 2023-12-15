@@ -1,38 +1,322 @@
-.App {
-  text-align: center;
+body {
+  position: relative;
+  /* height: 100vh; */
+  padding-bottom: 15vh;
+  width: 98vw;
+  margin: 0;
+  background-color: #d7dce2
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  height: 30px;
+  margin-right: 2vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: rgb(63, 63, 202);
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/***************************** FOOTER *****************************/
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;  
+  align-items: center;  
+  font-size: 14px;
+  padding: 0px 18px; 
+  /* background-color: #f6fafa; */
+  /* background-color: rgb(247, 247, 247); */
+  background-color: #ced3df;
+  min-height: 15vh;
+}
+
+.footer-left, .footer-middle {
+  list-style: none;
+  font-size: 14px;
+  margin-left: 4%;
+  max-width: fit-content;
+}
+
+.footer-left li a{
+  order: -1; 
+  text-decoration: none;
+  color: black; 
+  display: flex; 
+}
+
+.footer-middle {
+  font-size: 25px;
+  display: flex;
+}
+
+.footer-middle li i {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer-right {
+  list-style: none;
+  margin-right: 8%;
+  max-width: fit-content;
+}
+
+.footer-right li {
+  text-decoration: none;
+  color: black;
+}
+
+/***************************** NAVBAR *****************************/
+.navbar {
+  display: flex;
+  width: 100%;
+  right: 0;
+  top: 0;
+  justify-content: space-between;  
+  align-items: center;  
+  font-size: 15px;
+  padding: 15px; 
+  margin-bottom: 15vh;
+}
+
+.left-item {
+  list-style: none;
+  font-size: 27px;
+  margin-left: 2%;
+}
+
+.left-item li, .logo {
+  transition: transform 0.5s ease;
+}
+
+.left-item li a{
+  order: -1; 
+  text-decoration: none;
+  color: black; 
+  display: flex; 
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;  
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 40px;
+  transition: transform 0.5s ease;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black; 
+}
+
+.nav-list li:last-child {
+  margin-right: 5vh;
+}
+
+/* HOVER STYLING */
+.nav-list li:hover, .left-item li:hover {
+  transform: scale(1.3);
+}
+
+/***************************** HOME PAGE *****************************/
+
+/* Summary abt me */
+.home {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.greeting {
+  font-size: 60px;
+  font-family: 'Hepta Slab', serif;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description {
+  top: 30%;
+  left: 55%;
+  right: 10%;
+  line-height: 4vh;
+  font-size: 18px;
+  position: absolute;
+}
+
+/* Social Media */
+#linkedin {
+  color: #2a4b83; 
+}
+
+#github {
+  color: #1f304c; 
+}
+
+#facebook {
+  color: #2a4b83; 
+}
+
+/* Profile Pic */
+.profile_image {
+  width: 60vh;
+  max-width: 70vh;
+  height: 80vh;
+  max-height: 90vh;
+  border-radius: 50%;
+}
+
+.profile_image_container {
+  top: 12%;
+  margin-left: 20%;
+  position: absolute;
+}
+
+/***************************** RESUME *****************************/
+.resume {
+  max-width: 100%;
+}
+
+.resume div {
+  padding-bottom: 10vh;;
+}
+
+/* Education */
+.resume-education {
+  white-space: nowrap;
+  position: relative;
+  line-height: 4vh;
+} 
+
+.resume-education ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+
+.school {
+  font-size: 27px;
+  margin-left: 30vh;
+}
+
+.major {
+  position: absolute;
+  font-size: 16px;
+  margin-left: 30vh;
+}
+
+.coursework {
+  font-size: 23px;
+  margin-left: 30vh;
+  padding-top: 100px;
+}
+
+/* Experience */
+.resume-experience {
+  list-style: none;
+  position: relative;
+  line-height: 3vh;
+}
+
+.experience-heading {
+  margin-top: 4%;
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+
+.experience-heading a {
+  text-decoration: none;
+  color: black;
+}
+
+.experience-list {
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: 2%;
+  width: 50vh;
+}
+
+.experience-list li {
+  overflow-wrap: break-word;
+  margin-bottom: 2%;
+}
+
+.experience-list a {
+  color: rgb(63, 63, 202);
+}
+
+/* Technical Skills */
+.resume-skills ul {
+  list-style: none;
+}
+
+.resume-skills ul li {
+  margin-left: 30vh;
+  margin-top: 1.5%;
+  font-size: 23px;
+}
+
+.heading {
+  font-size: 55px;
+  margin-left: 10%;
+}
+
+.date {
+  position: absolute;
+  max-width: 80%;
+  margin-left: 70%;
+}
+
+/***************************** PROJECTS *****************************/
+.projects {
+  list-style: none;
+  position: relative;
+  line-height: 3vh;
+}
+
+.languages {
+  font-size: 16px;
+  margin-left: 30vh;
+  position: absolute;
+  font-family: "Times New Roman";
+}
+
+.images {
+  position: absolute;
+  width: 40%;
+  right: 10vh;
+  height: 50;
+  border-radius: 3%;
+}
+
+.project-list {
+  flex-direction: column;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  width: 50vh;
+}
+
+.project-list li {
+  overflow-wrap: break-word;
+  margin-bottom: 2%;
+}
+
+.project-list a {
+  color: rgb(63, 63, 202);
+}
+
+.projects ul:last-child {
+  margin-bottom: 10%;
+}
+
+.skill {
+  font-size: 20px;
 }
