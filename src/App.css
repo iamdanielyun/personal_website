@@ -8,6 +8,11 @@ body {
   
 }
 
+.favicon {
+  height: 10px;
+  width: 5px;
+}
+
 .logo {
   height: 30px;
   margin-right: 2vh;
