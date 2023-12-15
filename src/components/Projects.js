@@ -2,8 +2,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
-// import video from "../icons/Untitled.mov";
-import video from "https://danielyun.onrender.com/static/media/Untitled.41075bdf6718f2008b7e.mov";
+import video from "../icons/Untitled.mov";
+// import video from "https://danielyun.onrender.com/static/media/Untitled.41075bdf6718f2008b7e.mov";
 import social_network from "../icons/social_network.png";
 import todo_app from "../icons/todo_app.png";
 
