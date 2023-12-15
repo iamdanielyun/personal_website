@@ -2,7 +2,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
-import profile_image from "../icons/profile_image.jpeg";
+// import profile_image from "../icons/profile_image.jpeg";
+import profile_image from "https://danielyun.onrender.com/static/media/profile_image.c621a703a7b5ebf5d4ff.jpeg";
 
 function Home(props) {
 
