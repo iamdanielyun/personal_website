@@ -3,7 +3,6 @@
 body {
     position: relative;
     height: 100vh;
-    max-height: 150vh;
     padding-bottom: 15vh;
     width: 98vw;
     margin: 0;
@@ -20,6 +19,11 @@ a {
 }
 
 /***************************** FOOTER *****************************/
+.home footer {
+    margin-top: calc(100vh - 50%);
+    width: calc(100vw - 2%);
+}
+
 .footer {
     bottom: 0;
     position:static;
@@ -33,6 +37,7 @@ a {
     /* background-color: rgb(247, 247, 247); */
     background-color: #ced3df;
     min-height: 15vh;
+    float: bottom;
 }
 
 .footer-left, .footer-middle {
@@ -130,11 +135,11 @@ a {
 
 /* Summary abt me */
 .home {
+    position: relative;
     align-items: center;
-    height: 90vh;
-    max-height: 100vh;
+    /* max-height: 15vh; */
     max-width: 100vw;
-    padding-bottom: 40vh;
+    /* padding-bottom: 10vh; */
 }
 
 .greeting {
@@ -146,11 +151,15 @@ a {
 }
 
 .description {
-    top: 55vh;
-    left: 8vh;
+    margin-top: calc(60vw - 15%);
+    margin-left: calc(1vw - 50%);
+    max-width: calc(60vw - 6%);
+    bottom: 5vh;
+    height: 60vh;
     line-height: 4vh;
     padding-bottom: 40vh;
     position: absolute;
+    transform: translate(30%, 5%);
 }
 
 /* Social Media */
@@ -168,17 +177,15 @@ a {
 
 /* Profile Pic */
 .profile_image {
-    width: 70%;
-    max-width: 80%;
+    width: calc(55vw - 15%);
     height: 80%;
-    max-height: 90%;
     border-radius: 50%;
 }
 
 .profile_image_container {
-    top: 20vh;
+    top: 25vh;
     max-height: 50vh;
-    margin-left: 28vw;
+    margin-left: calc(50vw - 25%);
     position: absolute;
 }
 
@@ -225,6 +232,7 @@ a {
 .school {
     font-size: 23px;
     margin-left: -3vw;
+    clear: both;
 }
 
 .major {
@@ -299,6 +307,7 @@ a {
 .projects {
     list-style: none;
     position: relative;
+    justify-content: space-between;
     line-height: 3vh;
 }
 
@@ -311,15 +320,17 @@ a {
 
 .images {
     position: absolute;
-    margin-top: 130%;
+    display: block;
+    top: calc(60vh - 10%);
     left: 7.2vw;
     width: 90%;
     height: auto;
+    max-height: 30vh;
     border-radius: 3%;
 }
 
 #last-image {
-    margin-top: 39vh;
+    margin-top: -20vh;
 }
 
 .project-list {
@@ -352,5 +363,4 @@ a {
 .skill {
     font-size: 15px;
 }
-
 }

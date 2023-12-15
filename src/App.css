@@ -129,6 +129,7 @@ a {
 
 /* Summary abt me */
 .home {
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
 }
@@ -165,17 +166,22 @@ a {
 
 /* Profile Pic */
 .profile_image {
-  width: 60vh;
+  width: calc(150% - 13vw);
   max-width: 70vh;
-  height: 80vh;
+  height: 90%;
   max-height: 90vh;
   border-radius: 50%;
 }
 
 .profile_image_container {
-  top: 12%;
-  margin-left: 20%;
+  margin-top: -10vh;
+  margin-left: 17vw;
   position: absolute;
+}
+
+.description, .profile_image_container {
+  flex: 1;
+  max-width: calc(40% - 10vw);
 }
 
 /***************************** RESUME *****************************/

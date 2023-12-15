@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
 import profile_image from "../icons/profile_image.jpeg";
 // import profile_image from "https://danielyun.onrender.com/static/media/profile_image.c621a703a7b5ebf5d4ff.jpeg";
-//khkj
+
 function Home(props) {
 
     return (
-        <div>
-            <motion.div className="home" 
+        <div className="home">
+            <motion.div
                 initial={{ opacity: 0, scale: 0.7 }}
                 animate={{ opacity: 1, scale: 1 }} 
                 exit={{ opacity: 0, scale: 0.7 }}
@@ -46,7 +46,7 @@ function Home(props) {
                     and meeting new people. Welcome <i class="fa-regular fa-face-smile-beam"></i>
                 </div>
             </motion.div>
-            <Footer />
+            <Footer/>
         </div>
     )
 }
