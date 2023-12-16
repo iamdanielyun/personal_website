@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Navbar(props) {
+function Navbar() {
     return (
         <div>
             <nav className="navbar">
