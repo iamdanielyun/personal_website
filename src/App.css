@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: rgb(63, 63, 202);
+  color: rgb(3, 3, 253);
   text-decoration: none;
 }
 
@@ -215,13 +215,13 @@ a {
 }
 
 .school {
-  font-size: 27px;
+  font-size: 30px;
   margin-left: 30vh;
 }
 
 .major {
   position: absolute;
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 30vh;
 }
 
@@ -235,7 +235,7 @@ a {
 .resume-experience {
   list-style: none;
   position: relative;
-  line-height: 3vh;
+  line-height: 4vh;
 }
 
 .experience-heading {
@@ -247,23 +247,25 @@ a {
 
 .experience-heading a {
   text-decoration: none;
-  color: black;
+  color: rgb(3, 3, 253);
 }
 
 .experience-list {
   flex-direction: column;
   margin-left: 20%;
-  margin-top: 2%;
+  margin-top: 4%;
   width: 50vh;
 }
 
 .experience-list li {
   overflow-wrap: break-word;
   margin-bottom: 2%;
+  font-size: 18px;
+  color: black;
 }
 
 .experience-list a {
-  color: rgb(63, 63, 202);
+  color: rgb(3, 3, 253);
 }
 
 /* Technical Skills */
@@ -286,6 +288,7 @@ a {
   position: absolute;
   max-width: 80%;
   margin-left: 70%;
+  font-size: 20px;
 }
 
 /***************************** PROJECTS *****************************/
@@ -296,8 +299,9 @@ a {
 }
 
 .languages {
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 30vh;
+  margin-top: 0.8vh;
   position: absolute;
   font-family: "Times New Roman";
 }
@@ -313,9 +317,11 @@ a {
 .project-list {
   flex-direction: column;
   margin-left: 20%;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-bottom: 10%;
   width: 50vh;
+  line-height: 4vh;
+  font-size: 18px;
 }
 
 .project-list li {
@@ -324,7 +330,7 @@ a {
 }
 
 .project-list a {
-  color: rgb(63, 63, 202);
+  color: rgb(3, 3, 253);
 }
 
 .projects ul:last-child {

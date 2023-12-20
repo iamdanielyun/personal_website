@@ -40,7 +40,7 @@ function Home(props) {
                     at the hackathon to help teams in an orderly manner. We additionally worked on building the frontend
                     of HackRPI using React.
 
-                    <br />
+                    <br /> <br />
 
                     Aside from that, I'm just another student who enjoys lifting, spending time with friends,
                     and meeting new people. Welcome <i class="fa-regular fa-face-smile-beam"></i>

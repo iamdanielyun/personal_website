@@ -6,7 +6,7 @@ import video from "../icons/Untitled.mov";
 import social_network from "../icons/social_network.png";
 import todo_app from "../icons/todo_app.png";
 
-function Projects(props) {
+function Projects_Mobile() {
     return (
         <div>
             <motion.div
@@ -35,11 +35,6 @@ function Projects(props) {
                                 <br />
                                 <i className="languages">MongoDB, Express.js, React.js, Node.js (MERN)</i>
                             </li>
-                            <li>
-                                <video id="first-image" className="images" controls autoPlay>
-                                    <source src={video} type="video/mp4"/>
-                                </video>
-                            </li>
                         </ul>
 
                         <ul className="project-list">
@@ -67,6 +62,13 @@ function Projects(props) {
                                     Code
                                 </Link>
                             </li>
+                            <li>
+                                <center>
+                                <video id="first-image" className="images" controls autoPlay>
+                                    <source src={video} type="video/mp4"/>
+                                </video>
+                                </center>
+                            </li>
                         </ul>
                         
                         {/* Day Planner */}
@@ -77,9 +79,6 @@ function Projects(props) {
                                 </b> 
                                 <br />
                                 <i className="languages">Node.js, Express.js, MongoDB, EJS, CSS</i>
-                            </li>
-                            <li>
-                                <img className="images" src={todo_app}></img>
                             </li>
                         </ul>
 
@@ -104,6 +103,9 @@ function Projects(props) {
                                     Code
                                 </Link>
                             </li>
+                            <li>
+                                <img className="images" src={todo_app}></img>
+                            </li>
                         </ul>
 
                         {/* Social Network */}
@@ -114,9 +116,6 @@ function Projects(props) {
                                 </b> 
                                 <br />
                                 <i className="languages">Python, Django, JavaScript, SQL, HTML/CSS </i>
-                            </li>
-                            <li>
-                                <img id="last-image" className="images" src={social_network}></img>
                             </li>
                         </ul>
 
@@ -136,6 +135,9 @@ function Projects(props) {
                                     Code
                                 </Link>
                             </li>
+                            <li>
+                                <img id="last-image" className="images" src={social_network}></img>
+                            </li>
                         </ul>
 
                     </div>
@@ -146,4 +148,4 @@ function Projects(props) {
     )
 }
 
-export default Projects;
+export default Projects_Mobile;

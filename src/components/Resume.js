@@ -81,9 +81,7 @@ function Resume(props) {
                         <ul className="experience-heading">
                             <li>
                                 <b className="school">
-                                    <Link to={"https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute"} target="_blank">
-                                        Computer Science Summer Institute  
-                                    </Link>
+                                    Computer Science Summer Institute  
                                 </b>  
                                 <br />
                                 <i className="major">Google</i>
@@ -96,16 +94,14 @@ function Resume(props) {
 
                         <ul className="experience-list">
                             <li>
-                                Completed an introductory project-based HTML/CSS and JavaScript curriculum taught by Google engineers
+                                Configured individual coding projects by using concepts such as variables, data types, functions and REST APIs
                             </li>
                             <li>
-                                Configured individual coding projects in JavaScript by using concepts such as variables, data types, functions and APIs
+                                Delivered a collaborative final project presentation in front of Google software engineers and program leaders
+                                utilizing core concepts we learned in HTML, CSS and JavaScript
                             </li>
                             <li>
                                 Attended product design, resume development, and software engineering interview workshops
-                            </li>
-                            <li>
-                                Delivered a collaborative final project presentation that included a live demonstration to Google employees and community leaders
                             </li>
                             <li>
                                 <Link to={"https://drive.google.com/file/d/1ze5h-qJC_spPxDKYBmrlY4Z_hbxVjiwh/view"} target="_blank">

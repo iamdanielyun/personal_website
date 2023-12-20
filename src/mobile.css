@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: rgb(63, 63, 202);
+    color: rgb(3, 3, 253);
 }
 
 /***************************** FOOTER *****************************/
@@ -263,7 +263,7 @@ a {
 .experience-heading a {
     position: relative;
     text-decoration: none;
-    color: black;
+    color: rgb(3, 3, 253);
 }
 
 .experience-list {
@@ -271,6 +271,7 @@ a {
     margin-left: 9vw;
     margin-top: 9vh;
     width: 35vh;
+    line-height: 4vh;
 }
 
 .experience-list li {
@@ -280,7 +281,7 @@ a {
 }
 
 .experience-list a {
-    color: rgb(63, 63, 202);
+    color: rgb(3, 3, 253);
 }
 
 /* Technical Skills */
@@ -312,7 +313,7 @@ a {
 }
 
 .languages {
-    font-size: 13px;
+    font-size: 14px;
     margin-left: -3vw;
     position: absolute;
     font-family: "Times New Roman";
@@ -321,16 +322,16 @@ a {
 .images {
     position: absolute;
     display: block;
-    top: calc(60vh - 10%);
-    left: 7.2vw;
+    /* top: calc(73vh - 10%); */
+    /* left: 7.2vw; */
+    left: 5%;
+    margin-top: 3vh;
     width: 90%;
+    max-width: 100%;
     height: auto;
     max-height: 30vh;
     border-radius: 3%;
-}
-
-#last-image {
-    margin-top: -20vh;
+    justify-content: center;
 }
 
 .project-list {
@@ -348,11 +349,12 @@ a {
 }
 
 .project-list a {
-    color: rgb(63, 63, 202);
+    color: rgb(3, 3, 253);
 }
 
 .project-list li:last-child {
     margin-bottom: 40vh;
+    list-style: none;
 }
 
 
