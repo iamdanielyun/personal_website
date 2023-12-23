@@ -20,7 +20,7 @@ function Projects_Mobile() {
                     transformOrigin: 'center center',
                 }}
             >
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="resume">
                     <div className="projects">
                         <p className="heading">Projects</p>
@@ -143,7 +143,7 @@ function Projects_Mobile() {
                     </div>
                 </div>
             </motion.div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

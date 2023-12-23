@@ -27,7 +27,7 @@ a {
 .footer {
     bottom: 0;
     position:static;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;  
     align-items: center;  
@@ -136,10 +136,14 @@ a {
 /* Summary abt me */
 .home {
     position: relative;
-    align-items: center;
-    /* max-height: 15vh; */
-    max-width: 100vw;
-    /* padding-bottom: 10vh; */
+    height: calc(150vh + 20vw);
+}
+
+.profile {
+    padding: 0;
+    position: relative;
+    display: block;
+    flex-direction: column;
 }
 
 .greeting {
@@ -151,15 +155,23 @@ a {
 }
 
 .description {
-    margin-top: calc(60vw - 15%);
-    margin-left: calc(1vw - 50%);
-    max-width: calc(60vw - 6%);
-    bottom: 5vh;
+    /* margin-top: 5vh; */
+    left: -3vw;
+    max-width: 70vw;
+    /* bottom: 5vh;/ */
     height: 60vh;
-    line-height: 4vh;
-    padding-bottom: 40vh;
-    position: absolute;
     transform: translate(30%, 5%);
+}
+
+/* Profile Pic */
+.profile_image {
+    transform: translate(7%, 0%);
+    width: 70%;
+    max-width: 70%;
+    height: 70%;
+    max-height: 70%;
+    margin-top: -5vh;
+    border-radius: 50%;
 }
 
 /* Social Media */
@@ -173,20 +185,6 @@ a {
 
 #facebook {
     color: #2a4b83; 
-}
-
-/* Profile Pic */
-.profile_image {
-    width: calc(55vw - 15%);
-    height: 80%;
-    border-radius: 50%;
-}
-
-.profile_image_container {
-    top: 25vh;
-    max-height: 50vh;
-    margin-left: calc(50vw - 25%);
-    position: absolute;
 }
 
 /***************************** RESUME *****************************/
@@ -210,8 +208,9 @@ a {
 .date {
     position: absolute;
     max-width: 80%;
-    margin-left: 0vw;
-    margin-top: 7vh;
+    margin-left: -2vw;
+    margin-top: 8vh;
+    font-size: 16px;
 }
 
 /* Education */
@@ -237,9 +236,10 @@ a {
 
 .major {
     position: absolute;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: -3vw;
     margin-bottom: 5vh;
+    margin-top: 0.5vh;
 }
 
 /* Experience */

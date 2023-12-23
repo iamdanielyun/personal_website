@@ -20,7 +20,7 @@ function Projects(props) {
                     transformOrigin: 'center center',
                 }}
             >
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="resume">
                     <div className="projects">
                         <p className="heading">Projects</p>
@@ -141,7 +141,7 @@ function Projects(props) {
                     </div>
                 </div>
             </motion.div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

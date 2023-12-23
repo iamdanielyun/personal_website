@@ -17,7 +17,7 @@ function Resume(props) {
                     transformOrigin: 'center center',
                 }}
             >
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="resume">
                     
                     {/************************************************************ Education *****************************************************/}
@@ -134,7 +134,7 @@ function Resume(props) {
                     </div>
                 </div>
             </motion.div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

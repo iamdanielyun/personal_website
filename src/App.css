@@ -151,7 +151,7 @@ a {
 }
 
 .description {
-  top: 30%;
+  /* top: 30%; */
   left: 55%;
   right: 10%;
   line-height: 4vh;
@@ -174,16 +174,16 @@ a {
 
 /* Profile Pic */
 .profile_image {
-  width: calc(150% - 13vw);
-  max-width: 70vh;
+  width: calc(160% - 13vw);
+  max-width: 80vh;
   height: 90%;
   max-height: 90vh;
   border-radius: 50%;
 }
 
 .profile_image_container {
-  margin-top: -10vh;
-  margin-left: 17vw;
+  margin-top: -5vh;
+  margin-left: 14vw;
   position: absolute;
 }
 
@@ -239,7 +239,7 @@ a {
 }
 
 .experience-heading {
-  margin-top: 4%;
+  margin-top: 3%;
   list-style: none;
   display: flex;
   position: relative;

@@ -2,6 +2,8 @@ import './App.css';
 import './mobile.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AnimatedRoutes from './components/AnimatedRoutes';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
   // function App() {
   //   const location = useLocation();
@@ -22,7 +24,9 @@ import AnimatedRoutes from './components/AnimatedRoutes';
     
     return (
       <Router>
+        <Navbar />
         <AnimatedRoutes />
+        <Footer />
       </Router>
     )
   }

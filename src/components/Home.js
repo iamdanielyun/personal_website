@@ -21,7 +21,7 @@ function Home(props) {
                     transformOrigin: 'center center',
                 }}
             >
-                <Navbar />
+                {/* <Navbar /> */}
                 
                 {/* Profile Image */}
                 <div className="profile_image_container">
@@ -43,10 +43,13 @@ function Home(props) {
                     <br /> <br />
 
                     Aside from that, I'm just another student who enjoys lifting, spending time with friends,
-                    and meeting new people. Welcome <i class="fa-regular fa-face-smile-beam"></i>
+                    and meeting new people. 
+                    
+                    <br /> <br />
+                    <b>Welcome <i class="fa-regular fa-face-smile-beam"></i></b>
                 </div>
             </motion.div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }
