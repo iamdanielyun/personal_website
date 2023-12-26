@@ -54,13 +54,13 @@ function Projects(props) {
                                 to provide real-time stock quotes and company news
                             </li>
                             <li>
-                                Deployed the frontend on <Link to={"https://render.com/"} target="_blank" style={{color: "rgb(63, 63, 202)"}}>Render </Link>
+                                Deployed the frontend on <Link to={"https://render.com/"} target="_blank">Render </Link>
                             </li>
                             <li>
-                                Deployed the backend on <Link to={"https://vercel.com/"} target="_blank" style={{color: "rgb(63, 63, 202)"}}>Vercel </Link>
+                                Deployed the backend on <Link to={"https://vercel.com/"} target="_blank">Vercel </Link>
                             </li>
                             <li>
-                                <Link to={"https://stocksimulation.onrender.com/"} target="_blank" style={{color: "rgb(63, 63, 202)"}}>View Site</Link>
+                                <Link to={"https://stocksimulation.onrender.com/"} target="_blank">View Site</Link>
                             </li>
                             <li>
                                 <Link to={"https://github.com/iamdanielyun/stock-simulation"} target="_blank">
