@@ -7,6 +7,7 @@ import Projects from './Projects';
 import Resume from './Resume';
 import Projects_Mobile from './Projects-Mobile';
 import Home_Mobile from './Home-Mobile';
+import Resume_Mobile from './Resume-Mobile';
 
   function AnimatedRoutes() {
     const location = useLocation();
@@ -17,7 +18,7 @@ import Home_Mobile from './Home-Mobile';
             <Routes location={location} key={location.pathname}>
                 <Route exact path='/' element={isMobile ? <Home_Mobile /> : <Home />}/>
                 <Route path='/projects' element={isMobile ? <Projects_Mobile /> : <Projects />}/>
-                <Route path='/resume' element={<Resume />}/>
+                <Route path='/resume' element={isMobile ? <Resume_Mobile /> : <Resume />}/>
                 <Route path='*' element={<Navigate to="/" replace />}/>
             </Routes>
         </AnimatePresence>

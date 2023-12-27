@@ -198,6 +198,7 @@ a {
 
 .resume div {
     padding-bottom: 20vh;
+    margin-left: -2vw;
 }
 
 .heading {
@@ -313,10 +314,10 @@ a {
 }
 
 .languages {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: -3vw;
     position: absolute;
-    font-family: "Times New Roman";
+    /* font-family: "Times New Roman"; */
 }
 
 .images {
@@ -324,7 +325,7 @@ a {
     display: block;
     /* top: calc(73vh - 10%); */
     /* left: 7.2vw; */
-    left: 5%;
+    left: 10%;
     margin-top: 3vh;
     width: 90%;
     max-width: 100%;

@@ -1,9 +1,7 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-function Resume(props) {
+function Resume_Mobile() {
     return (
         <div>
             <motion.div
@@ -78,7 +76,7 @@ function Resume(props) {
                         </ul>
 
                         {/* Google CSSI */}
-                        <ul id="google" className="experience-heading">
+                        <ul className="experience-heading">
                             <li>
                                 <b className="school">
                                     Computer Science Summer Institute  
@@ -139,4 +137,4 @@ function Resume(props) {
     )
 }
 
-export default Resume;
+export default Resume_Mobile;

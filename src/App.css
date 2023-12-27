@@ -34,16 +34,16 @@ a {
   align-items: center;  
   font-size: 14px;
   padding: 0px 18px; 
-  /* background-color: #f6fafa; */
-  /* background-color: rgb(247, 247, 247); */
   background-color: #ced3df;
+  /* background-color: rgb(247, 247, 247); */
+  /* background-color: #becbe8; */
   min-height: 15vh;
 }
 
 .footer-left, .footer-middle {
   list-style: none;
   font-size: 14px;
-  margin-left: 4%;
+  margin-left: 5%;
   max-width: fit-content;
 }
 
@@ -84,14 +84,14 @@ a {
   justify-content: space-between;  
   align-items: center;  
   font-size: 15px;
-  padding: 15px; 
+  padding: 5px; 
   margin-bottom: 15vh;
 }
 
 .left-item {
   list-style: none;
   font-size: 27px;
-  margin-left: 2%;
+  margin-left: 5%;
   display: flex;
 }
 
@@ -115,7 +115,7 @@ a {
 }
 
 .nav-list li {
-  margin-left: 40px;
+  margin-left: 12%;
   transition: transform 0.5s ease;
 }
 
@@ -125,7 +125,7 @@ a {
 }
 
 .nav-list li:last-child {
-  margin-right: 5vh;
+  margin-right: 15vw;
 }
 
 /* HOVER STYLING */
@@ -195,10 +195,11 @@ a {
 /***************************** RESUME *****************************/
 .resume {
   max-width: 100%;
+  position: relative;
 }
 
 .resume div {
-  padding-bottom: 10vh;;
+  padding-bottom: 10vh;
 }
 
 /* Education */
@@ -206,6 +207,7 @@ a {
   white-space: nowrap;
   position: relative;
   line-height: 4vh;
+  margin-left: 20%;
 } 
 
 .resume-education ul {
@@ -216,13 +218,13 @@ a {
 
 .school {
   font-size: 30px;
-  margin-left: 30vh;
+  /* margin-left: 30vh; */
 }
 
 .major {
   position: absolute;
   font-size: 18px;
-  margin-left: 30vh;
+  /* margin-left: 30vh; */
 }
 
 .coursework {
@@ -236,10 +238,15 @@ a {
   list-style: none;
   position: relative;
   line-height: 4vh;
+  margin-left: 20%;
+}
+
+#google {
+  margin-top: 4%;
 }
 
 .experience-heading {
-  margin-top: 3%;
+  margin-top: 2%;
   list-style: none;
   display: flex;
   position: relative;
@@ -251,8 +258,9 @@ a {
 }
 
 .experience-list {
+  list-style-type: square;
   flex-direction: column;
-  margin-left: 20%;
+  margin-left: 3%;
   margin-top: 4%;
   width: 50vh;
 }
@@ -269,25 +277,27 @@ a {
 }
 
 /* Technical Skills */
+.resume-skills {
+  margin-left: 20%;
+}
+
 .resume-skills ul {
   list-style: none;
 }
 
-.resume-skills ul li {
-  margin-left: 30vh;
+.resume-skills ul li { 
   margin-top: 1.5%;
   font-size: 23px;
 }
 
 .heading {
   font-size: 55px;
-  margin-left: 10%;
 }
 
 .date {
   position: absolute;
   max-width: 80%;
-  margin-left: 70%;
+  margin-left: 55%;
   font-size: 20px;
 }
 
@@ -298,12 +308,18 @@ a {
   line-height: 3vh;
 }
 
+.project {
+  margin-left: 20%;
+  margin-bottom: -10%;
+  position: relative;
+  line-height: 3vh;
+}
+
 .languages {
-  font-size: 18px;
-  margin-left: 30vh;
+  font-size: 16px;
   margin-top: 0.8vh;
   position: absolute;
-  font-family: "Times New Roman";
+  /* font-family: "Times New Roman"; */
 }
 
 .images {
@@ -315,10 +331,10 @@ a {
 }
 
 .project-list {
+  list-style-type: square;
   flex-direction: column;
-  margin-left: 20%;
-  margin-top: 3%;
-  margin-bottom: 10%;
+  margin-left: 3%;
+  margin-top: 4%;
   width: 50vh;
   line-height: 4vh;
   font-size: 18px;
