@@ -207,7 +207,7 @@ a {
   white-space: nowrap;
   position: relative;
   line-height: 4vh;
-  margin-left: 20%;
+  margin-left: 14%;
 } 
 
 .resume-education ul {
@@ -238,7 +238,7 @@ a {
   list-style: none;
   position: relative;
   line-height: 4vh;
-  margin-left: 20%;
+  margin-left: 14%;
 }
 
 #google {
@@ -278,7 +278,7 @@ a {
 
 /* Technical Skills */
 .resume-skills {
-  margin-left: 20%;
+  margin-left: 14%;
 }
 
 .resume-skills ul {
@@ -309,7 +309,7 @@ a {
 }
 
 .project {
-  margin-left: 20%;
+  margin-left: 14%;
   margin-bottom: -10%;
   position: relative;
   line-height: 3vh;
@@ -324,8 +324,8 @@ a {
 
 .images {
   position: absolute;
-  width: 40%;
-  right: 10vh;
+  width: 50%;
+  right: 0%;
   height: 50;
   border-radius: 3%;
 }
