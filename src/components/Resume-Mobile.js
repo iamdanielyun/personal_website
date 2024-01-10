@@ -70,9 +70,6 @@ function Resume_Mobile() {
                             <li>
                                 Practiced CI/CD cycles by committing and pushing code regularly using Git
                             </li>
-                            <li>
-                                Set up Github Workflow to automate testing and deploying
-                            </li>
                         </ul>
 
                         {/* Google CSSI */}
