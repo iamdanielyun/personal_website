@@ -47,30 +47,29 @@ function Resume(props) {
                         
                         <ul className="experience-heading">
                             <li>
-                                <b className="school">Software Developer</b>  
+                                <b className="school">Full Stack Intern</b>  
                                 <br />
-                                <i className="major"><Link to={"https://new.rcos.io/"} target="_blank">Rensselaer Center for Open Source</Link></i>
+                                <i className="major"><Link to={"https://afterflea.com/"} target="_blank">AfterFlea AiOS</Link></i>
                             </li>
                             
                             <li className="date">
-                                Sep 2023 - Dec 2023
+                                Jan 2024 - Present
                             </li>
                         </ul>
 
                         <ul className="experience-list">
                             <li>
-                                Developed the user interface of an established hackathon organization sponsored by 
-                                multi-billion dollar corporations such as Google Cloud and IBM using React and Node
+                                Interacted with OpenAI API to help automate the process of generating conversations between two personsas in
+                                different communities
                             </li>
                             <li>
-                                Configured a discord bot to implement a ticket system to allow hundreds of teams to enter a queue for help
+                                Developed Mongoose schemas and RESTful API routes to support Backend services using Node.js                            
                             </li>
                             <li>
-                                Incorporated object-oriented programming concepts by implementing appropriate classes and 
-                                utilizing necessary data structures to represent the queue
+                                Utilized React.js to implement new styling and features for the user interface
                             </li>
                             <li>
-                                Practiced CI/CD cycles by committing and pushing code regularly using Git
+                                Followed good Git practices by frequently creating new branches and Pull Requests                            
                             </li>
                         </ul>
 
