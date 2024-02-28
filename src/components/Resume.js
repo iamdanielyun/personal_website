@@ -59,8 +59,7 @@ function Resume(props) {
 
                         <ul className="experience-list">
                             <li>
-                                Interacted with OpenAI API to help automate the process of generating conversations between two personsas in
-                                different communities
+                                Interacted with OpenAI API and LLM Chains to help autogenerate conversations between different personas
                             </li>
                             <li>
                                 Developed Mongoose schemas and RESTful API routes to support Backend services using Node.js                            
