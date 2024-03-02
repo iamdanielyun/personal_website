@@ -45,7 +45,7 @@ function Resume_Mobile() {
                         
                         <ul className="experience-heading">
                             <li>
-                                <b className="school">Full Stack Intern</b>  
+                                <b className="school">Software Engineer Intern</b>  
                                 <br />
                                 <i className="major"><Link to={"https://afterflea.com/"} target="_blank">AfterFlea AiOS</Link></i>
                             </li>
@@ -57,16 +57,16 @@ function Resume_Mobile() {
 
                         <ul className="experience-list">
                             <li>
-                                Interacted with OpenAI API and LLM Chains to help autogenerate conversations between different personas
+                                Interacted with OpenAI API and LLM chains to help autogenerate conversations between different personas
                             </li>
                             <li>
-                                Developed Mongoose schemas and RESTful API routes to support Backend services using Node.js                            
+                                Developed Mongoose schemas and RESTful API routes to support backend services using Node.js and Express.js                           
                             </li>
                             <li>
-                                Utilized React.js to implement new styling and features for the user interface
+                                Implemented new styling and features for the UI using React.js
                             </li>
                             <li>
-                                Followed good Git practices by frequently creating new branches and Pull Requests                            
+                                Ensured seamless collaboration by adhering to a MVC architecture                           
                             </li>
                         </ul>
 
@@ -113,15 +113,15 @@ function Resume_Mobile() {
                         <ul>
                             <li>
                                 <b>Programming Languages:</b>  &nbsp;
-                                <i className="skill">C, C++, Python, SQL, JavaScript, HTML, CSS</i>
+                                <i className="skill">C, C++, Python, SQL, Java, JavaScript, HTML, CSS</i>
                             </li>
                             <li>
                             <b>Frameworks:</b>  &nbsp;
-                                <i className="skill">React, Express, Node, Flask, Django, mySQL, mongoDB</i>
+                                <i className="skill">React, Express, Node, Flask, Django, PostgreSQL, mySQL, mongoDB</i>
                             </li>
                             <li>
                             <b>Dev Tools:</b>  &nbsp;
-                                <i className="skill">Github, Render, Vercel, VSCode, Linux</i>
+                                <i className="skill">Git, Postman, Render, Vercel, VSCode, Linux</i>
                             </li>
                         </ul>
                     </div>
