@@ -56,14 +56,24 @@ function Home_Mobile() {
                             <center><b className="greeting">HELLO!</b></center>
                             <br />
 
-                            I am an undergraduate student studying computer science at 
-                            <Link to={"https://www.rpi.edu/"} target="_blank"> Rensselaer Polytechnic Institute </Link> 
-                            (RPI). Currently, I am working as a Full Stack Intern at 
-                            <Link to={"https://afterflea.com/"} target="_blank"> AfterFlea AiOS </Link>,
-                            engaging in tasks such as generating conversations between 
-                            <Link to={"https://personanet.app/"} target="_blank"> personas </Link> and enhancing the 
-                            user interface. My experience here has genuinely opened my eyes to power of AI 
-                            and the sheer potential of this field. 
+                            I am an undergraduate student studying computer science at&nbsp; 
+                            <Link to={"https://www.rpi.edu/"} target="_blank"> 
+                                Rensselaer Polytechnic Institute  
+                            </Link>
+                            &nbsp;(RPI). Currently, I am working as a Software Engineer Intern at&nbsp; 
+                            <Link to={"https://www.caci.com/"} target="_blank"> 
+                                CACI 
+                            </Link>
+                            , as well as a research intern at&nbsp; 
+                            <Link to={"https://www.paraxialtech.com/"} target="_blank"> 
+                                Paraxial Tech 
+                            </Link>
+                            , collaborating on&nbsp; 
+                            <Link to={"https://www.ielcap-airs.org/"} target="_blank"> 
+                                I-ELCAP AIRS 
+                            </Link> 
+                            , an open source project dedicated to detect lung cancer more efficiently 
+                            using Artificial Intelligence.
 
                             <br /> <br />
 

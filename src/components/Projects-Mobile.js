@@ -49,16 +49,10 @@ function Projects_Mobile() {
                                 to provide real-time stock quotes and company news
                             </li>
                             <li>
-                                Deployed the frontend on <Link to={"https://render.com/"} target="_blank">Render </Link>
+                                <Link to={"https://stocksimulationv2.onrender.com/"} target="_blank">View Site</Link>
                             </li>
                             <li>
-                                Deployed the backend on <Link to={"https://vercel.com/"} target="_blank">Vercel </Link>
-                            </li>
-                            <li>
-                                <Link to={"https://stocksimulation.onrender.com/"} target="_blank">View Site</Link>
-                            </li>
-                            <li>
-                                <Link to={"https://github.com/iamdanielyun/stock-simulation"} target="_blank">
+                                <Link to={"https://github.com/iamdanielyun/Stock-Simulation-V2"} target="_blank">
                                     Code
                                 </Link>
                             </li>

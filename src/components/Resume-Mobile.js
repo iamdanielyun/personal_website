@@ -38,11 +38,62 @@ function Resume_Mobile() {
 
                     {/************************************************************ Experience *****************************************************/}
                     
-                    {/* RCOS */}
                     <div className="resume-experience">
                         <p className="heading">Experience</p>
                         <hr />
-                        
+
+                        {/* CACI */}
+                        <ul className="experience-heading">
+                            <li>
+                                <b className="school">Software Engineer Intern</b>  
+                                <br />
+                                <i className="major"><Link to={"https://caci.com/"} target="_blank">CACI</Link></i>
+                            </li>
+                            
+                            <li className="date">
+                                May 2024 - Present
+                            </li>
+                        </ul>
+
+                        <ul className="experience-list">
+                            <li>
+                                Developed a financial planning application to manage contract-personnel relationships
+                            </li>
+                            <li>
+                                Flask/SQL backend + React frontend to efficiently manage relational data                         
+                            </li>
+                            <li>
+                                In progress...                      
+                            </li>
+                        </ul>
+
+                        {/* Paraxial */}
+                        <ul className="experience-heading">
+                            <li>
+                                <b className="school">AI/ML Research Intern</b>  
+                                <br />
+                                <i className="major"><Link to={"https://paraxialtech.com/"} target="_blank">Paraxial Tech</Link></i>
+                            </li>
+                            
+                            <li className="date">
+                                Mar 2024 - Present
+                            </li>
+                        </ul>
+
+                        <ul className="experience-list">
+                            <li>
+                                Generated relevant data by running scripts on real cases containing lung CT scans
+                            </li>
+                            <li>
+                                Leveraged visualization tools such as <Link to={"https://www.paraview.org/"} target="_blank">Paraview</Link>   
+                                &nbsp;to further analyze and filter the data                        
+                            </li>
+                            <li>
+                                In progress...                      
+                            </li>
+                        </ul>
+
+                        {/* AfterFlea AIOS */}
                         <ul className="experience-heading">
                             <li>
                                 <b className="school">Software Engineer Intern</b>  
@@ -51,22 +102,22 @@ function Resume_Mobile() {
                             </li>
                             
                             <li className="date">
-                                Jan 2024 - Present
+                                Jan 2024 - Mar 2024
                             </li>
                         </ul>
 
                         <ul className="experience-list">
                             <li>
-                                Interacted with OpenAI API and LLM chains to help autogenerate conversations between different personas
+                                Leveraged OpenAI API and LLM Chains to help autogenerate conversations between different personas
                             </li>
                             <li>
                                 Developed Mongoose schemas and RESTful API routes to support backend services using Node.js and Express.js                           
                             </li>
                             <li>
-                                Implemented new styling and features for the UI using React.js
+                                Implemented new styling and features for the user interface using React.js
                             </li>
                             <li>
-                                Ensured seamless collaboration by adhering to a MVC architecture                           
+                                CI/CD using Git + Docker
                             </li>
                         </ul>
 
@@ -90,19 +141,12 @@ function Resume_Mobile() {
                                 Configured individual coding projects by using concepts such as variables, data types, functions and REST APIs
                             </li>
                             <li>
-                                Delivered a collaborative final project presentation in front of Google software engineers and program leaders
-                                utilizing core concepts we learned in HTML, CSS and JavaScript
+                                Delivered a collaborative final project presentation to Google software engineers and program leaders
                             </li>
                             <li>
                                 Attended product design, resume development, and software engineering interview workshops
                             </li>
-                            <li>
-                                <Link to={"https://drive.google.com/file/d/1ze5h-qJC_spPxDKYBmrlY4Z_hbxVjiwh/view"} target="_blank">
-                                    Certificate of Completion
-                                </Link>
-                            </li>
                         </ul>
-                        
                     </div>
 
                     {/************************************************************ Technical Skills *****************************************************/}
@@ -117,11 +161,11 @@ function Resume_Mobile() {
                             </li>
                             <li>
                             <b>Frameworks:</b>  &nbsp;
-                                <i className="skill">React, Express, Node, Flask, Django, PostgreSQL, mySQL, mongoDB</i>
+                                <i className="skill">Springboot, React, Express, Node, Flask, Django, PostgreSQL, mySQL, mongoDB</i>
                             </li>
                             <li>
                             <b>Dev Tools:</b>  &nbsp;
-                                <i className="skill">Git, Postman, Render, Vercel, VSCode, Linux</i>
+                                <i className="skill">Git, AWS, Postman, VSCode, Linux</i>
                             </li>
                         </ul>
                     </div>

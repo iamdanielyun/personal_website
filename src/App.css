@@ -194,7 +194,8 @@ a {
 
 /***************************** RESUME *****************************/
 .resume {
-  max-width: 100%;
+  margin-left: 14%;
+  max-width: 72%;
   position: relative;
 }
 
@@ -202,102 +203,62 @@ a {
   padding-bottom: 10vh;
 }
 
-/* Education */
 .resume-education {
-  white-space: nowrap;
-  position: relative;
-  line-height: 4vh;
-  margin-left: 14%;
-} 
+  margin-bottom: -15%;
+}
 
-.resume-education ul {
-  list-style: none;
+.resume-education-item {
   display: flex;
-  position: relative;
+  flex-direction: row;
 }
 
-.school {
-  font-size: 30px;
-  /* margin-left: 30vh; */
-}
-
-.major {
-  position: absolute;
-  font-size: 18px;
-  /* margin-left: 30vh; */
-}
-
-.coursework {
-  font-size: 23px;
-  margin-left: 30vh;
-  padding-top: 100px;
-}
-
-/* Experience */
-.resume-experience {
-  list-style: none;
-  position: relative;
-  line-height: 4vh;
-  margin-left: 14%;
-}
-
-#google {
-  margin-top: 4%;
-}
-
-.experience-heading {
-  margin-top: 2%;
-  list-style: none;
+.resume-education-heading {
   display: flex;
-  position: relative;
-}
-
-.experience-heading a {
-  text-decoration: none;
-  color: rgb(3, 3, 253);
-}
-
-.experience-list {
-  list-style-type: square;
   flex-direction: column;
-  margin-left: 3%;
-  margin-top: 4%;
-  width: 50vh;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
-.experience-list li {
-  overflow-wrap: break-word;
-  margin-bottom: 2%;
+.resume-education-heading-school {
+  font-size: 30px;
+}
+
+.resume-education-heading-major {
   font-size: 18px;
-  color: black;
 }
 
-.experience-list a {
-  color: rgb(3, 3, 253);
+.resume-education-date {
+  position: absolute;
+  font-size: 20px;
+  right: 15%;
 }
 
-/* Technical Skills */
+.resume-experience-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -10%;
+}
+
+.resume-experience-list {
+  list-style-type: square;
+  line-height: 3vh;
+  font-size: 18px;
+}
+
 .resume-skills {
-  margin-left: 14%;
+  margin-top: 15%;
 }
 
 .resume-skills ul {
   list-style: none;
+  line-height: 4vh;
 }
 
-.resume-skills ul li { 
-  margin-top: 1.5%;
-  font-size: 23px;
+.resume-skills ul li {
+  font-size: 24px;
 }
 
-.heading {
-  font-size: 55px;
-}
-
-.date {
-  position: absolute;
-  max-width: 80%;
-  margin-left: 55%;
+.resume-skills ul li span {
   font-size: 20px;
 }
 
@@ -306,53 +267,48 @@ a {
   list-style: none;
   position: relative;
   line-height: 3vh;
+  margin-left: 14%;
+  max-width: 72%;
+}
+
+.projects div {
+  padding-bottom: 10vh;
 }
 
 .project {
-  margin-left: 14%;
+  margin-top: 2%;
   margin-bottom: -10%;
-  position: relative;
-  line-height: 3vh;
+  margin-left: 5%;
 }
 
-.languages {
+.project-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-heading-title {
+  font-size: 30px;
+}
+
+.project-heading-languages {
   font-size: 16px;
-  margin-top: 0.8vh;
-  position: absolute;
-  /* font-family: "Times New Roman"; */
-}
-
-.images {
-  position: absolute;
-  width: 50%;
-  right: 0%;
-  height: 50;
-  border-radius: 3%;
+  margin-top: 0.5%;
 }
 
 .project-list {
   list-style-type: square;
-  flex-direction: column;
-  margin-left: 3%;
-  margin-top: 4%;
-  width: 50vh;
-  line-height: 4vh;
+  line-height: 3.5vh;
   font-size: 18px;
+  margin-top: -6.5%;
 }
 
-.project-list li {
-  overflow-wrap: break-word;
-  margin-bottom: 2%;
+.project-image .images {
+  width: 65%;
+  border-radius: 1.5%;
 }
 
-.project-list a {
-  color: rgb(3, 3, 253);
-}
-
-.projects ul:last-child {
-  margin-bottom: 10%;
-}
-
-.skill {
-  font-size: 20px;
+/***************************** SHARED *****************************/
+.heading {
+  font-size: 55px;
+  font-weight: 300;
 }
