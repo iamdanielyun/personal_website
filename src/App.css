@@ -304,6 +304,7 @@ a {
 
 .project-image .images {
   width: 65%;
+  height: auto;
   border-radius: 1.5%;
 }
 

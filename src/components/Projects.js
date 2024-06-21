@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
+import mySNS from "../icons/mySNS.png";
 import video from "../icons/Untitled.mov";
 import social_network from "../icons/social_network.png";
 import todo_app from "../icons/todo_app.png";
@@ -23,6 +24,38 @@ function Projects(props) {
                 <div className="projects">
                     <p className="heading">Projects</p>
                     <hr />
+
+                    {/* MySNS */}
+                    <div className="project">
+                        <div className="project-heading">
+                            <b className="project-heading-title">My SNS</b>
+                            <i className="project-heading-languages">Spring Boot, React.js, PostgreSQL, Docker</i>
+                        </div>
+                        
+                        <ul className="project-list">
+                            <li>
+                                Developed a full stack application that simulates a social media platform
+                            </li>
+                            <li>
+                                Structured the backend code into controller, service and repository layers to 
+                                to establish separation and maintainability
+                            </li>
+                            <li>
+                                <Link to={"https://mysns.onrender.com/"} target="_blank">View Site</Link>
+                            </li>
+                            <li>
+                                <Link to={"https://github.com/iamdanielyun/mySNS"} target="_blank">
+                                    Code
+                                </Link>
+                            </li>
+                        </ul>
+
+                        <div className="project-image">
+                            <center>
+                                <img className="images" src={mySNS}></img>
+                            </center>
+                        </div>
+                    </div>
 
                     {/* Stock Simulation */}
                     <div className="project">
@@ -94,7 +127,7 @@ function Projects(props) {
                         </div>
                     </div>
 
-                    <div className="project">
+                    {/* <div className="project">
                         <div className="project-heading">
                             <b className="project-heading-title">Social Network</b>
                             <i className="project-heading-languages">Python, Django, JavaScript, SQL, HTML/CSS</i>
@@ -123,7 +156,8 @@ function Projects(props) {
                                 <img id="last-image" className="images" src={social_network}></img>
                             </center>
                         </div>
-                    </div>
+                    </div> */}
+
                 </div>
             </motion.div>
         </div>
