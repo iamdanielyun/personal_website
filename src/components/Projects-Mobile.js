@@ -27,37 +27,6 @@ function Projects_Mobile() {
                         <p className="heading">Projects</p>
                         <hr />
 
-                        <ul className="experience-heading">
-                            <li>
-                                <b className="school">
-                                    My SNS
-                                </b> 
-                                <br />
-                                <i className="languages">Spring Boot, React.js, PostgreSQL, Docker</i>
-                            </li>
-                        </ul>
-
-                        <ul className="project-list">
-                            <li>
-                                Developed a full stack application that simulates a social media platform
-                            </li>
-                            <li>
-                                Structured the backend code into controller, service and repository layers to 
-                                to establish separation and maintainability
-                            </li>
-                            <li>
-                                <Link to={"https://mysns.onrender.com/"} target="_blank">View Site</Link>
-                            </li>
-                            <li>
-                                <Link to={"https://github.com/iamdanielyun/mySNS"} target="_blank">
-                                    Code
-                                </Link>
-                            </li>
-                            <li>
-                                <img className="images" src={mySNS}></img>
-                            </li>
-                        </ul>
-
                         {/* Stock Simulation */}
                         <ul className="experience-heading">
                             <li>
@@ -71,14 +40,13 @@ function Projects_Mobile() {
 
                         <ul className="project-list">
                             <li>
-                                Configured a full stack MERN application that simulates the stock trading experience
+                                Developed a <b>MERN</b> stack application that simulates the stock market trading experience
                             </li>
                             <li>
-                                Allows users to query for ∼100,000 stocks listed across multiple stock exchanges (NASDAQ, NYSE, AMEX, etc.)
+                                Enabled users to query for <b>∼100,000</b> stocks listed across multiple exchanges (NASDAQ, NYSE, AMEX, etc.)
                             </li>
                             <li>
-                                Utilized third party services such as <Link to={"https://twelvedata.com/"} target="_blank" style={{color: "black"}}>TwelveData </Link> 
-                                to provide real-time stock quotes and company news
+                                Integrated <b>real-time</b> news updates and company histories to provide users with detailed market insights
                             </li>
                             <li>
                                 <Link to={"https://stocksimulationv2.onrender.com/"} target="_blank">View Site</Link>
@@ -94,6 +62,37 @@ function Projects_Mobile() {
                                     <source src={video} type="video/mp4"/>
                                 </video>
                                 </center>
+                            </li>
+                        </ul>
+
+                        {/* MySNS */}
+                        <ul className="experience-heading">
+                            <li>
+                                <b className="school">
+                                    My SNS
+                                </b> 
+                                <br />
+                                <i className="languages">Spring Boot, React.js, PostgreSQL, Docker</i>
+                            </li>
+                        </ul>
+
+                        <ul className="project-list">
+                            <li>
+                                Created a comprehensive SNS platform that facilitates robust and scalable user interactions
+                            </li>
+                            <li>
+                                Enabled user-generated content creation, promoting dynamic social engagement
+                            </li>
+                            <li>
+                                <Link to={"https://mysns.onrender.com/"} target="_blank">View Site</Link>
+                            </li>
+                            <li>
+                                <Link to={"https://github.com/iamdanielyun/mySNS"} target="_blank">
+                                    Code
+                                </Link>
+                            </li>
+                            <li>
+                                <img className="images" src={mySNS}></img>
                             </li>
                         </ul>
                         

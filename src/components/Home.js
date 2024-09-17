@@ -1,12 +1,23 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion";
 import profile_image from "../icons/profile_image.jpeg";
-// import profile_image from "https://danielyun.onrender.com/static/media/profile_image.c621a703a7b5ebf5d4ff.jpeg";
+import gym from "../icons/gym.jpg";
+import food from "../icons/texas_de_brazil.jpg";
+import thumbs_up from "../icons/thumbs_up.jpg";
 
 function Home(props) {
-
+    const images = [thumbs_up, gym, food];
+    const [img_index, setImg_index] = useState(0);
+    const handleNext = () => {
+        setImg_index((prevIndex) => (prevIndex + 1) % images.length); // Loop to the first image if we reach the end
+    };
+    
+    const handlePrev = () => {
+        setImg_index((prevIndex) =>
+            prevIndex === 0 ? images.length - 1 : prevIndex - 1
+        );
+    };
     return (
         <div className="home">
             <motion.div
@@ -24,19 +35,46 @@ function Home(props) {
                 {/* <Navbar /> */}
                 
                 {/* Profile Image */}
-                <div className="profile_image_container">
+                {/* <div className="profile_image_container">
                     <img src={profile_image} className="profile_image"></img>
+                </div> */}
+            
+                <div className="profile_image_container">
+                    <div className="image_slider">
+                        {/* <img src={thumbs_up} alt="Profile" className="profile_image" />
+                        <img src={gym} alt="Another" className="profile_image" />
+                        <img src={food} alt="Yet Another" className="profile_image" /> */}
+                        <img
+                            src={images[img_index]}
+                            alt="Displayed"
+                            className="profile_image"
+                        />
+                    </div>
+                    <button className="prev_button" onClick={handlePrev}>
+                        ← Prev
+                        </button>
+                        <button className="next_button" onClick={handleNext}>
+                        Next →
+                        </button>
                 </div>
 
                 <div className="description">
                     <center><b className="greeting">HELLO!</b></center>
                     <br />
 
-                    I am an undergraduate student studying computer science at&nbsp; 
-                    <Link to={"https://www.rpi.edu/"} target="_blank"> 
+                    I am an undergraduate student studying computer science
+                    at <Link to={"https://www.rpi.edu/"} target="_blank"> 
                         Rensselaer Polytechnic Institute  
-                    </Link>
-                    &nbsp;(RPI). Currently, I am working as a Software Engineer Intern at&nbsp; 
+                    </Link> (RPI). I love learning new technologies and skills (not necessarily tech-related)
+                    and trying new things. Feel free to check out my <Link to={"/projects"} target="_blank"> projects!</Link>
+                    
+                    <br /> <br />
+
+                    When I'm not at my desk studying, you'll likely find me at the gym, eating (I love food) or 
+                    spending time with friends. I've also started cooking my own meals - 
+                    please <Link to={"mailto:dsy3712@gmail.com"}>reach out</Link> if you know any good recipes!!
+                    
+                    {/* Currently, I am working as a Software Engineer Intern at&nbsp; 
                     <Link to={"https://www.caci.com/"} target="_blank"> 
                         CACI 
                     </Link>
@@ -54,11 +92,12 @@ function Home(props) {
                     <br /> <br />
 
                     Aside from that, I'm just another student who enjoys lifting, spending time with friends,
-                    and meeting new people. 
+                    and meeting new people.  */}
                     
                     <br /> <br />
                     <b>Welcome <i class="fa-regular fa-face-smile-beam"></i></b>
                 </div>
+                
             </motion.div>
             {/* <Footer/> */}
         </div>

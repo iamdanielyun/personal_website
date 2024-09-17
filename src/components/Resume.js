@@ -44,13 +44,14 @@ function Resume() {
                                 
                                 <ul className="resume-experience-list">
                                     <li>
-                                        Developed a financial planning application to manage contract-personnel relationships
+                                        <b>Spearheaded</b> the development of a financial planning application using a <b>Flask/SQL</b> backend and <b>React</b>
+                                        frontend, efficiently managing tasks and charges for over <b>20,000</b> CACI employees across various contracts
                                     </li>
                                     <li>
-                                        Flask/SQL backend + React frontend to efficiently manage relational data                         
+                                        Reduced project managers’ manual workload by <b>50%</b>∼, streamlining operations and increasing overall efficiency                         
                                     </li>
                                     <li>
-                                        In progress...                      
+                                        Directly collaborated with managers and <b>stakeholders</b> to find efficient solutions to issues that arose
                                     </li>
                                 </ul>
                             </div>
@@ -59,7 +60,7 @@ function Resume() {
                         </div>
 
                         {/* Paraxial */}
-                        <div className="resume-experience-item">
+                        {/* <div className="resume-experience-item">
                             <div className="resume-education-heading">
                                 <b className="resume-education-heading-school">AI/ML Research Intern</b>
                                 <p className="resume-education-heading-major"><Link to={"https://paraxialtech.com/"} target="_blank">Paraxial Tech</Link></p>
@@ -79,7 +80,7 @@ function Resume() {
                             </div>
                             
                             <p className="resume-education-date">Mar 2024 - Present</p>
-                        </div>
+                        </div> */}
 
                         {/* AfterFlea AIOS */}
                         <div className="resume-experience-item">
@@ -89,21 +90,18 @@ function Resume() {
                                 
                                 <ul className="resume-experience-list">
                                     <li>
-                                        Leveraged OpenAI API and LLM Chains to help autogenerate conversations between different personas
+                                        Optimized <b>API</b> endpoints for efficient data retrieval and manipulation, reducing response times by up to <b>15%</b>
                                     </li>
                                     <li>
-                                        Developed Mongoose schemas and RESTful API routes to support backend services using Node.js and Express.js                           
+                                        Leveraged <b>OpenAI API</b> to strategically autogenerate <b>200+</b> conversations between various <Link to={"https://afterflea.com/"}>personas</Link>
                                     </li>
                                     <li>
-                                        Implemented new styling and features for the user interface using React.js
-                                    </li>
-                                    <li>
-                                        CI/CD using Git + Docker
+                                        Enhanced <b>UI</b> design and functionality by leading the implementation of new styling and features using <b>React</b> and <b>TypeScript</b>
                                     </li>
                                 </ul>
                             </div>
                             
-                            <p className="resume-education-date">Jan 2024 - Mar 2024</p>
+                            <p className="resume-education-date">Jan 2024 - Apr 2024</p>
                         </div>
 
                         {/* CSSI */}
@@ -137,15 +135,15 @@ function Resume() {
                         <ul>
                             <li>
                                 <b>Programming Languages:</b>  &nbsp;
-                                <span>C, C++, Python, SQL, Java, JavaScript, HTML, CSS</span>
+                                <span>C, C++, Python, SQL, Java, JavaScript, HTML/CSS</span>
                             </li>
                             <li>
                                 <b>Frameworks:</b>  &nbsp;
-                                <span>Springboot, React, Express, Node, Flask, Django, PostgreSQL, mySQL, mongoDB</span>
+                                <span>Spring Boot, React.js, Express.js, Node.js, Flask, Django, PostgreSQL, mongoDB</span>
                             </li>
                             <li>
                                 <b>Dev Tools:</b>  &nbsp;
-                                <span>Github, AWS, Postman, VSCode, Linux</span>
+                                <span>Github, JUnit, AWS, Postman, VSCode, Linux</span>
                             </li>
                         </ul>
                     </div>

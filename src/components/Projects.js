@@ -25,38 +25,6 @@ function Projects(props) {
                     <p className="heading">Projects</p>
                     <hr />
 
-                    {/* MySNS */}
-                    <div className="project">
-                        <div className="project-heading">
-                            <b className="project-heading-title">My SNS</b>
-                            <i className="project-heading-languages">Spring Boot, React.js, PostgreSQL, Docker</i>
-                        </div>
-                        
-                        <ul className="project-list">
-                            <li>
-                                Developed a full stack application that simulates a social media platform
-                            </li>
-                            <li>
-                                Structured the backend code into controller, service and repository layers to 
-                                to establish separation and maintainability
-                            </li>
-                            <li>
-                                <Link to={"https://mysns.onrender.com/"} target="_blank">View Site</Link>
-                            </li>
-                            <li>
-                                <Link to={"https://github.com/iamdanielyun/mySNS"} target="_blank">
-                                    Code
-                                </Link>
-                            </li>
-                        </ul>
-
-                        <div className="project-image">
-                            <center>
-                                <img className="images" src={mySNS}></img>
-                            </center>
-                        </div>
-                    </div>
-
                     {/* Stock Simulation */}
                     <div className="project">
                         <div className="project-heading">
@@ -66,10 +34,13 @@ function Projects(props) {
                         
                         <ul className="project-list">
                             <li>
-                                Configured a full stack MERN application that simulates the stock trading experience
+                                Developed a <b>MERN</b> stack application that simulates the stock market trading experience
                             </li>
                             <li>
-                                Allows users to query for ∼100,000 stocks listed across multiple stock exchanges (NASDAQ, NYSE, AMEX, etc.)
+                                Enabled users to query for <b>∼100,000</b> stocks listed across multiple exchanges (NASDAQ, NYSE, AMEX, etc.)
+                            </li>
+                            <li>
+                                Integrated <b>real-time</b> news updates and company histories to provide users with detailed market insights
                             </li>
                             <li>
                                 <Link to={"https://stocksimulationv2.onrender.com/"} target="_blank">View Site</Link>
@@ -86,6 +57,37 @@ function Projects(props) {
                                 <video className="images" controls autoPlay>
                                     <source src={video} type="video/mp4"/>
                                 </video>
+                            </center>
+                        </div>
+                    </div>
+
+                    {/* MySNS */}
+                    <div className="project">
+                        <div className="project-heading">
+                            <b className="project-heading-title">My SNS</b>
+                            <i className="project-heading-languages">Spring Boot, React.js, PostgreSQL, Docker</i>
+                        </div>
+                        
+                        <ul className="project-list">
+                            <li>
+                                Created a comprehensive SNS platform that facilitates robust and scalable user interactions
+                            </li>
+                            <li>
+                                Enabled user-generated content creation, promoting dynamic social engagement
+                            </li>
+                            <li>
+                                <Link to={"https://mysns.onrender.com/"} target="_blank">View Site</Link>
+                            </li>
+                            <li>
+                                <Link to={"https://github.com/iamdanielyun/mySNS"} target="_blank">
+                                    Code
+                                </Link>
+                            </li>
+                        </ul>
+
+                        <div className="project-image">
+                            <center>
+                                <img className="images" src={mySNS}></img>
                             </center>
                         </div>
                     </div>

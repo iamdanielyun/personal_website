@@ -57,18 +57,19 @@ function Resume_Mobile() {
 
                         <ul className="experience-list">
                             <li>
-                                Developed a financial planning application to manage contract-personnel relationships
+                                <b>Spearheaded</b> the development of a financial planning application using a <b>Flask/SQL</b> backend and <b>React</b>
+                                frontend, efficiently managing tasks and charges for over <b>20,000</b> CACI employees across various contracts
                             </li>
                             <li>
-                                Flask/SQL backend + React frontend to efficiently manage relational data                         
+                                Reduced project managers’ manual workload by <b>50%</b>∼, streamlining operations and increasing overall efficiency                         
                             </li>
                             <li>
-                                In progress...                      
+                                Directly collaborated with managers and <b>stakeholders</b> to find efficient solutions to issues that arose
                             </li>
                         </ul>
 
                         {/* Paraxial */}
-                        <ul className="experience-heading">
+                        {/* <ul className="experience-heading">
                             <li>
                                 <b className="school">AI/ML Research Intern</b>  
                                 <br />
@@ -91,7 +92,7 @@ function Resume_Mobile() {
                             <li>
                                 In progress...                      
                             </li>
-                        </ul>
+                        </ul> */}
 
                         {/* AfterFlea AIOS */}
                         <ul className="experience-heading">
@@ -102,22 +103,19 @@ function Resume_Mobile() {
                             </li>
                             
                             <li className="date">
-                                Jan 2024 - Mar 2024
+                                Jan 2024 - Apr 2024
                             </li>
                         </ul>
 
                         <ul className="experience-list">
                             <li>
-                                Leveraged OpenAI API and LLM Chains to help autogenerate conversations between different personas
+                                Optimized <b>API</b> endpoints for efficient data retrieval and manipulation, reducing response times by up to <b>15%</b>
                             </li>
                             <li>
-                                Developed Mongoose schemas and RESTful API routes to support backend services using Node.js and Express.js                           
+                                Leveraged <b>OpenAI API</b> to strategically autogenerate <b>200+</b> conversations between various <Link to={"https://afterflea.com/"}>personas</Link>
                             </li>
                             <li>
-                                Implemented new styling and features for the user interface using React.js
-                            </li>
-                            <li>
-                                CI/CD using Git + Docker
+                                Enhanced <b>UI</b> design and functionality by leading the implementation of new styling and features using <b>React</b> and <b>TypeScript</b>
                             </li>
                         </ul>
 
