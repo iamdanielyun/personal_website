@@ -245,6 +245,7 @@ a {
   flex-direction: column;
   margin-top: 1%;
   margin-left: 5%;
+  max-width: 50%;
 }
 
 .resume-education-heading-school {
@@ -264,13 +265,17 @@ a {
 .resume-experience-item {
   display: flex;
   flex-direction: row;
-  margin-bottom: -10%;
+  margin-bottom: -15%;
 }
 
 .resume-experience-list {
   list-style-type: square;
-  line-height: 3vh;
+  line-height: 2.5vh;
   font-size: 18px;
+}
+
+.resume-experience-list li {
+    margin-bottom: 2%;
 }
 
 .resume-skills {

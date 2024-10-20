@@ -44,14 +44,18 @@ function Resume() {
                                 
                                 <ul className="resume-experience-list">
                                     <li>
-                                        <b>Spearheaded</b> the development of a financial planning application using a <b>Flask/SQL</b> backend and <b>React</b>
-                                        frontend, efficiently managing tasks and charges for over <b>20,000</b> CACI employees across various contracts
+                                        Developed a financial planning tool that streamlined tracking charges and hours for <b>5,000+</b>
+                                        employees, reducing time spent on manual workload by <b>~35%</b> per biweekly period, saving managers
+                                        <b>5+</b> hours/week
                                     </li>
                                     <li>
-                                        Reduced project managers’ manual workload by <b>50%</b>∼, streamlining operations and increasing overall efficiency                         
+                                        Strategically leveraged <b>Python</b> and <b>SQL</b> to design a scalable <b>data</b> model and 
+                                        <b>20+ RESTful</b> API endpoints, tested rigorously using <b>Unittest</b> and <b>Postman, </b>
+                                        optimizing processing speed and memory usage by <b>∼23%</b>                     
                                     </li>
                                     <li>
-                                        Directly collaborated with managers and <b>stakeholders</b> to find efficient solutions to issues that arose
+                                        Crafted a user-friendly frontend utilizing <b>React.js</b> and <b>Material UI,</b> enhancing user experience and 
+                                        visual appeal, also reducing development time by <b>∼25%</b> using reusable components
                                     </li>
                                 </ul>
                             </div>
@@ -90,13 +94,23 @@ function Resume() {
                                 
                                 <ul className="resume-experience-list">
                                     <li>
-                                        Optimized <b>API</b> endpoints for efficient data retrieval and manipulation, reducing response times by up to <b>15%</b>
+                                        Engineered a scalable social media platform driven by artificial personas representing users, increasing user 
+                                        engagement by <b>~20%</b> through personalized interactions between <b>100+</b> personas                                    
                                     </li>
                                     <li>
-                                        Leveraged <b>OpenAI API</b> to strategically autogenerate <b>200+</b> conversations between various <Link to={"https://afterflea.com/"}>personas</Link>
+                                        Designed and implemented <b>MongoDB</b> schemas and <b>15+ Express.js</b> API endpoints, optimizing backend 
+                                        workflows and reducing query response time by <b>~18%</b>
                                     </li>
                                     <li>
-                                        Enhanced <b>UI</b> design and functionality by leading the implementation of new styling and features using <b>React</b> and <b>TypeScript</b>
+                                        Built a responsive landing page using <b>React.js</b>, ensuring seamless navigation across <b>30+</b> communities 
+                                    </li>
+                                    <li>
+                                        Collaborated with a lead ML engineer to integrate <b>OpenAI</b>, generating <b>200+</b> persona-driven conversations,
+                                        boosting user retention by <b>~14%</b> through real-time interactions
+                                    </li>
+                                    <li>
+                                        Participated in <b>CI/CD</b> pipeline integration, resolving <b>10+</b> merge conflicts and reducing build failure rates 
+                                        by <b>~15%</b>, gaining comprehensive knowledge on the <b>Software Development Life Cycle (SDLC)</b>
                                     </li>
                                 </ul>
                             </div>
@@ -112,7 +126,7 @@ function Resume() {
 
                                 <ul className="resume-experience-list">
                                     <li>
-                                        Configured individual coding projects by using concepts such as variables, data types, functions and REST APIs
+                                        Configured individual coding projects by using concepts such as variables, data types, functions and <b>REST</b> APIs
                                     </li>
                                     <li>
                                         Delivered a collaborative final project presentation to Google software engineers and program leaders
