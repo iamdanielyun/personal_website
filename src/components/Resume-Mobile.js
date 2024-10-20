@@ -70,6 +70,10 @@ function Resume_Mobile() {
                                 Crafted a user-friendly frontend utilizing <b>React.js</b> and <b>Material UI,</b> enhancing user experience and 
                                 visual appeal, also reducing development time by <b>∼25%</b> using reusable components
                             </li>
+                            <li>
+                                Engaged in regular sprints using <b>Agile</b> methodologies, collaborating closely with project managers to 
+                                gather feedback, plan next steps, and debug issues, reducing feature development time by <b>~20%</b>∼
+                            </li>
                         </ul>
 
                         {/* Paraxial */}
