@@ -45,17 +45,17 @@ function Home(props) {
                         <img src={gym} alt="Another" className="profile_image" />
                         <img src={food} alt="Yet Another" className="profile_image" /> */}
                         <img
-                            src={images[img_index]}
+                            src={images[0]}     //thumbs-up image
                             alt="Displayed"
                             className="profile_image"
                         />
                     </div>
-                    <button className="prev_button" onClick={handlePrev}>
+                    {/* <button className="prev_button" onClick={handlePrev}>
                         ← Prev
-                        </button>
-                        <button className="next_button" onClick={handleNext}>
+                    </button>
+                    <button className="next_button" onClick={handleNext}>
                         Next →
-                        </button>
+                    </button> */}
                 </div>
 
                 <div className="description">
